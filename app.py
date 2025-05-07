@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
+def home():
     return "Ayeng, Zoi Artchelo L. BSIT-||| B "
 
 if __name__ == '__main__':
